@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col1header{
+	padding-left:8em;
+	padding-top: 2em;
+}
+
+.col2header {
+	padding-left:2em;
+	padding-top: 2em;
+}
+
+.left {
+	padding-left: 10em;
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+.right {
+    width: 40%;
+    margin-left: 2px;
+    float:left;
+}
+
+.leftcol2{
+	padding-left: 3em;
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+.rightcol2{
+	width: 70%;
+    padding-right: 7em;
+    float:left;
+}
+
+.regblurb{
+	text-align: center;
+}
+
+#phoneMessage {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#phoneMessage p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+#confMessage {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#confMessage p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.tick {
+  background: url(http://wiki.pandorafms.com/images/d/d6/Yes_tick.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 5px 20px;
+  display: none;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
